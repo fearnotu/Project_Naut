@@ -1,0 +1,36 @@
+import random
+
+# Create a dictionary of deep sea creatures and their fun facts
+deep_sea_creatures = {
+    'giant_squid': 'The giant squid is the largest invertebrate and the second largest animal on Earth.',
+    'coelacanth': 'The coelacanth is a jawless fish that has survived for over 200 million years.',
+    'anglerfish': 'The anglerfish is a deep-sea fish that catches its prey by dangling a baited lure from its mouth.',
+    'octopus': 'Octopuses can change their skin color to match their surroundings and use their skin like camouflage.',
+    'sea_dragon': 'The sea dragon is a small, sea-dwelling lizard that has survived for millions of years.',
+    'colossal_squid': 'The colossal squid is a hypothetical species of giant squid.',
+    'devil_ray': 'The devil ray is a ray with a flattened body, a flattened tail, and large pectoral fins.',
+    'dugong': 'The dugong is a large, marine mammal related to the manatee.',
+    'eagle_ray': 'The eagle ray is a species of large ray that can reach 20 feet in length.',
+    'flounder': 'The flounder is a flatfish with rounded, pouty-looking mouths.',
+    'goliath_grouper': 'The goliath grouper is a species of sea bass known for its size and strength.',
+    'hammerhead_shark': 'The hammerhead shark is a shark characterized by its flattened head with a distinctive crest on its snout.',
+    'humpback_whale': 'The humpback whale is a large whale known for its unique and iconic black and white dorsal fin.',
+    'killer_whale': 'The killer whale is a large and powerful predator that can weigh over 50 tons.',
+    'leafy_seadragon': 'The leafy seadragon is a species of marine lizard that has long, feathery-looking appendages called pectoral fins.',
+    'lemon_shark': 'The lemon shark is a shark species that can reach lengths of over 6 feet and has a lemon-yellow color.',
+    'longnose_spinner_shark': 'The longnose spinner shark is a type of shark known for its large, thin, and highly elastic nose.',
+    'manta_ray': 'The manta ray is a large ray that has wings and is often referred to as a flying fish.',
+    'orca': 'The orca is a type of dolphin that is well-known for its hunting behavior and is sometimes called a killer whale.',
+    'sawfish': 'The sawfish is a type of ray with a saw-like protrusion on its head, used for defense and hunting.',
+    'sperm_whale': 'The sperm whale is a large whale with a prominent head, large black-and-white dorsal fin, and a melon-like head appendage.',
+    'sunfish': 'The sunfish is a large flatfish with a broad head and large mouth that is covered by a protective layer of skin called parchment.',
+    'tuna': 'The tuna is a large fish known for its strength and speed.',
+    'walrus': 'The walrus is a large marine mammal that resembles a giant bear with a heavy coat of thick fur.',
+    'whale_shark': 'The whale shark is a large fish known for its harmlessness and is sometimes referred to as the sea angel.',
+    'yellowfin_tuna': 'The yellowfin tuna is a species of tuna that has a yellow fin and can grow to be quite large.'
+}
+
+# Select a random creature and its fact from the dictionary
+random_creature, random_fact = random.choice(list(deep_sea_creatures.items()))
+
+# Print the random creature and its fun fact
